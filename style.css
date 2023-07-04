@@ -1,0 +1,114 @@
+ /* #t1 {min-block-size: 50px, 100px;width: 400px;}
+body {background-color: rgb(20, 88, 128); display:flex;flex-direction: column;}
+.nbuttons {width:50px; height: 30px; border-radius: 5px; border: none; background-color: rgb(12, 156, 48);font-family: Cambria; font-weight: bold; }
+.notes {border: 3px solid rgb(rgba(148, 202, 172, 0.897));  border-radius: 10px; background-color: rgb(39, 199, 111); 
+        box-sizing: content-box; flex: content; margin: 20px; padding:10pxpx 8px;
+            min-block-size: 300px, 600px;  }
+
+.notestext {color: rgb(255, 255, 255); font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;} */
+
+body {
+    background-color: rgb(6 124 124 / 79%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+#dinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#dnotes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+.nbuttons {
+    background-color: #3bbd43db;
+    border-radius: 90%;
+    width: 50px;
+    height: 40px;
+    border: 2px solid #3abb3d;
+    font-weight: 700;
+
+}
+
+.nbuttons:hover {
+    background-color: #937b27db;
+    border-radius: 90%;
+    width: 50px;
+    height: 40px;
+    border: 2px solid #8f6a18;
+    font-weight: 500;
+    transition-duration: 0.5s;
+}
+
+.notes {
+    padding: 20px 10px 5px 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+        border: 3px ridge aquamarine;
+        background: chocolate;
+        border-radius: 20px;
+    
+
+
+
+}
+#t1,#t2 {
+    font-size: 20px;
+    border-radius: 40px;
+    height: 60px;
+    width: 200px;
+    background-color: #efff00a6;
+    padding: 10px;
+}
+
+#t1label, #t2label {
+
+        font-size: 20px;
+        font-weight: 900;
+        font-family: georgia;
+    }
+
+
+
+#b1 {
+        background-color: #39bd43db;
+        border-radius: 90%;
+        width: 60px;
+        height: 50px;
+        border: 2px solid #26a53b;
+        font-weight: 500;
+        transition-duration: 0.5s;
+        font-weight: 800;
+    }
+
+
+    #b1:hover {
+        transition: 0.5s;
+        border: 2px solid  #2c8da3db;
+        border-radius: 90%;
+        width: 60px;
+        height: 50px;
+        background-color: #189175;
+        font-weight: 500;
+    }
+
+
+
+
